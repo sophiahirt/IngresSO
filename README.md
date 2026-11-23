@@ -2,6 +2,8 @@
 
 Sistema desktop de **venda de ingressos**, feito em **Java Swing** com **Maven**, organizado no padrão **MVC + DAO** e com os dados guardados em um banco **MySQL**.
 
+O projeto foi desenvolvido para a disciplina de Programação, com a finalidade de aplicar conceitos de programação orientada a objetos, desenvolvimento de interfaces gráficas, manipulação de dados e integração com bancos de dados.
+
 ![Java](https://img.shields.io/badge/Java-21-orange)
 ![Maven](https://img.shields.io/badge/Maven-build-blue)
 ![MySQL](https://img.shields.io/badge/MySQL-XAMPP-4479A1)
