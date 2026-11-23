@@ -144,7 +144,7 @@ O `AppController` cria as duas telas e o model, liga cada controller à sua tela
 
 ---
 
-## 🗄️ Banco de dados
+## Banco de dados
 
 O script `db.sql` cria o banco **`ingresso`** com duas tabelas:
 
@@ -186,7 +186,7 @@ CREATE TABLE vendas (
 
 ---
 
-## ✅ Pré-requisitos
+## Pré-requisitos
 
 - **JDK 21** ou superior.
 - **NetBeans** (recomendado). Ele já traz o Maven embutido.
