@@ -1,4 +1,4 @@
-# 🎟️ IngresSÔ
+# IngresSÔ
 
 Sistema desktop de **venda de ingressos**, feito em **Java Swing** com **Maven**, organizado no padrão **MVC + DAO** e com os dados guardados em um banco **MySQL**.
 
@@ -9,7 +9,7 @@ Sistema desktop de **venda de ingressos**, feito em **Java Swing** com **Maven**
 
 ---
 
-## 📑 Sumário
+## Sumário
 
 - [Sobre o projeto](#-sobre-o-projeto)
 - [Funcionalidades](#-funcionalidades)
@@ -26,7 +26,7 @@ Sistema desktop de **venda de ingressos**, feito em **Java Swing** com **Maven**
 
 ---
 
-## 📖 Sobre o projeto
+## Sobre o projeto
 
 O **IngresSÔ** permite cadastrar eventos (shows, peças, palestras etc.), vender ingressos para eles e acompanhar o total arrecadado. O sistema tem **duas telas**:
 
@@ -39,7 +39,7 @@ O visual é simples, no estilo clássico do **NetBeans** (tema padrão do Swing)
 
 ---
 
-## ✨ Funcionalidades
+## Funcionalidades
 
 **Tela de Eventos**
 - Cadastrar evento informando nome, preço e número de vagas.
@@ -62,7 +62,7 @@ O visual é simples, no estilo clássico do **NetBeans** (tema padrão do Swing)
 
 ---
 
-## 🛠️ Tecnologias
+## Tecnologias
 
 | Tecnologia | Uso |
 |------------|-----|
@@ -75,7 +75,7 @@ O visual é simples, no estilo clássico do **NetBeans** (tema padrão do Swing)
 
 ---
 
-## 📂 Estrutura do projeto
+## Estrutura do projeto
 
 ```
 IngresSO/
@@ -108,7 +108,7 @@ IngresSO/
 
 ---
 
-## 🧱 Arquitetura
+## Arquitetura
 
 O projeto segue o padrão **MVC**, com uma camada extra de **DAO** para falar com o banco.
 
@@ -197,7 +197,7 @@ CREATE TABLE vendas (
 
 ---
 
-## 🚀 Como instalar e executar
+## Como instalar e executar
 
 ### 1. Baixar o projeto
 
@@ -260,7 +260,7 @@ A classe principal (`controller.AppController`) já está definida no `pom.xml`.
 
 ---
 
-## 🖥️ Como usar o sistema
+## Como usar o sistema
 
 ### Tela de Eventos
 
@@ -281,7 +281,7 @@ O preço pode ser digitado com vírgula ou ponto (`50,00` ou `50.00`).
 
 ---
 
-## 📏 Regras de negócio
+## Regras de negócio
 
 - O nome do evento é obrigatório.
 - O preço não pode ser negativo.
@@ -295,7 +295,7 @@ O preço pode ser digitado com vírgula ou ponto (`50,00` ou `50.00`).
 
 ---
 
-## 🧰 Solução de problemas
+## Solução de problemas
 
 | Problema | Causa provável | Solução |
 |----------|----------------|---------|
@@ -311,7 +311,7 @@ O preço pode ser digitado com vírgula ou ponto (`50,00` ou `50.00`).
 
 ---
 
-## 🔮 Melhorias futuras
+## Melhorias futuras
 
 - Editar evento (nome, preço e vagas).
 - Tipos de ingresso (inteira e meia).
